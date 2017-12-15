@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flo"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/darker_gray"
+        android:textAllCaps="false"
+        android:layout_alignParentTop="true"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:text="Happy Birthday Vicky!!"
+        android:padding="20dp"
+        android:layout_centerInParent="false"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textColor="@android:color/darker_gray"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:layout_centerHorizontal="true"
+        android:text="Good days turn into awesome days when you’re around. Have a very happy birthday. "
+        android:padding="70dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="false"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/darker_gray"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="From your soul sister,Susan. "
+        android:padding="20dp"
+        android:layout_centerInParent="false"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
